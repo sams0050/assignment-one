@@ -1,0 +1,52 @@
+.popup {
+  text-align: center;
+  position: absolute;
+  bottom: 50%;
+  left: 27%;
+  z-index: 50;
+  width: 200px;
+  background-color: rgba(10, 88, 88, 0.808);
+  display: table;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: opacity .3s ease;
+  vertical-align: middle;
+}
+
+.forms {
+  width: auto;
+  padding: 30px;
+  margin-top: 6px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.el-form-item__label {
+  margin: 20px;
+  text-align: center;
+}
+
+.el-button--primary {
+  width: 20%;
+  margin: 30px;
+}
+
+.el-button {
+  margin: 10px;
+  width: 40%;
+  color: blue;
+  background-color: chartreuse;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+}
+
+.el-dialog__headerbtn {
+  display: none;
+}
